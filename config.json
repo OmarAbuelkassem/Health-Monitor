@@ -1,0 +1,16 @@
+{
+  "thresholds": {
+    "cpu_percent": 80,             
+    "memory_percent": 85,          
+    "disk_percent": 90, 
+    "swap_percent": 80,
+    "load_percent": 100,           
+    "check_interval_minutes": 5    
+  },
+  "alerts": {
+    "email_enabled": true,         
+    "email_to": "place_the_email_you_will_be_sending_the_logs_to",  
+    "webhook_enabled": false,      
+    "webhook_url": ""              
+  }
+}
