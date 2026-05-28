@@ -6,19 +6,19 @@
 
 A lightweight, self-contained Python agent that monitors CPU, memory, swap, and disk metrics. When thresholds are breached, it automatically triggers email or webhook alerts containing the exact processes causing the bottleneck.
 
-## ✨ Features
+## Features
 
 - **Core Metrics:** Tracks CPU, load average, RAM, Swap, Disk, and Uptime.
 - **Process Diagnostics:** Instantly identifies the Top 3 CPU and RAM consuming processes.
 - **Smart Alerting:** SMTP Email and Webhook integrations with customizable thresholds.
 - **Lightweight Logging:** Single-line JSON audit trails for easy parsing without the overhead.
 
-## 🚀 Quick Start
+## Quick Start
 
 **1. Clone & Setup Environment**
 
 ```bash
-git clone [https://github.com/yourusername/health-monitor.git](https://github.com/yourusername/health-monitor.git)
+git clone https://github.com/OmarAbuelkassem/Health-Monitor.git
 cd health-monitor
 python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
